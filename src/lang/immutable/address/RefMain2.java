@@ -1,0 +1,20 @@
+package lang.immutable.address;
+
+import lang.immutable.address.ImmutableAddress;
+
+public class RefMain2 {
+    public static void main(String[] args) {
+        // 참조형 변수는 하나의 인스턴스를 공유할 수 있다.
+        ImmutableAddress a = new ImmutableAddress("서울");
+        ImmutableAddress b = a;                // 참조값 대입을 막을 수는 없다.
+
+        System.out.println("a = " + a);        // 서울
+        System.out.println("b = " + b);        // 서울
+        
+//        b.setValue("부산");                   // 불변 객체로 컴파일 오류
+        b = new ImmutableAddress("부산"); // 다른 개발자가 못바꾼다는 것을 깨닫고 새로 생성
+        System.out.println("부산 -> b");
+        System.out.println("a = " + a);        // 서울
+        System.out.println("b = " + b);        // 부산
+    }
+}
