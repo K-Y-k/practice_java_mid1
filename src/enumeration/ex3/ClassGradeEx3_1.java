@@ -1,4 +1,4 @@
-package lang.enumeration.ex3;
+package enumeration.ex3;
 
 public class ClassGradeEx3_1 {
     public static void main(String[] args) {

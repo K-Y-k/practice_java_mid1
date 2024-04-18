@@ -1,4 +1,4 @@
-package lang.enumeration.ex2;
+package enumeration.ex2;
 
 public class DiscountService {
     // 매개변수를 ClassGrade 타입으로 받아옴

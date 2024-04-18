@@ -1,4 +1,4 @@
-package lang.enumeration.ex2;
+package enumeration.ex2;
 
 public class ClassGrade {
     // 각 등급별로 상수를 선언한다.

@@ -1,4 +1,4 @@
-package lang.enumeration.ex1;
+package enumeration.ex1;
 
 public class StringGrade {
     public static final String BASIC = "BASIC";

@@ -1,4 +1,4 @@
-package lang.enumeration.ex3;
+package enumeration.ex3;
 
 public enum Grade { // 열거형을 정의할 때는 class 대신 enum으로 선언한다.
 //    public static final ClassGrade BASIC = new ClassGrade();                   // x001

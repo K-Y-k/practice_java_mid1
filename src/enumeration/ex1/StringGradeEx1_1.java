@@ -1,4 +1,4 @@
-package lang.enumeration.ex1;
+package enumeration.ex1;
 
 public class StringGradeEx1_1 {
     public static void main(String[] args) {
