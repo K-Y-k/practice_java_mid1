@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 public class MainV2 {
     /**
-     * 여기서는 예외를 밖으로 던진다.
+     * 여기서는 예외를 잡지않고 밖으로 던지게 한다.
      */
     public static void main(String[] args) throws NetworkClientExceptionV2 {
         /**
